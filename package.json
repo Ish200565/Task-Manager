@@ -4,9 +4,9 @@
   "description": "Real-time collaborative task manager Workspaces, teams, live task updates, AI priority suggestions, full deployment",
   "main": "index.js",
   "scripts": {
-  "start": "node src/index.js",
-  "dev": "nodemon src/index.js"
-},
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Ish200565/Task-Manager.git"
@@ -20,10 +20,12 @@
   },
   "homepage": "https://github.com/Ish200565/Task-Manager#readme",
   "dependencies": {
+    "@prisma/client": "^7.8.0",
     "dotenv": "^17.4.2",
     "express": "^5.2.1"
   },
   "devDependencies": {
-    "nodemon": "^3.1.14"
+    "nodemon": "^3.1.14",
+    "prisma": "^7.8.0"
   }
 }
